@@ -1,0 +1,10 @@
+
+
+    <form #todoForm="ngForm" (ngSubmit)="onTodoSubmit()">
+        <div class="form-group">
+            <label for="todoItem"></label>
+            <input ngModel name="todoItem" type="text" class="form-control">
+        </div>
+        <button class="btn btn-block" mat-raised-button color="primary">Add Todo</button>
+    </form>
+
