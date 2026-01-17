@@ -1,11 +1,15 @@
 
-    <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-            <strong>{{todoObj.todoItem}}</strong>
-            <div>
-                <button (click)="onEdit(todoObj)" mat-mini-fab color="primary"><mat-icon>edit</mat-icon></button>
-                <button (click)="onRemove(todoObj)" class="ml-2" mat-mini-fab color="warn"><mat-icon>delete</mat-icon></button>
-            </div>
-        </li>
-    </ul>
+    
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <strong>{{todoObj.todoItem}}</strong>
+                <div>
+                    <button (click)="onEdit(todoObj)" mat-mini-fab color="primary"><mat-icon>edit</mat-icon></button>
+                    <button (click)="onRemove(todoObj)" class="ml-2" mat-mini-fab color="warn"><mat-icon>delete</mat-icon></button>
+                </div>
+            </li>
+        </ul>
+
+       
+    
 
