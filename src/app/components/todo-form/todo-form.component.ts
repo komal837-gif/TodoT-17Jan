@@ -30,7 +30,7 @@ export class TodoFormComponent implements OnInit, OnChanges {
   onTodoSubmit(){
     let todoObj:Itodo={
       ...this.todoForm.value,
-      todoId:Date.now.toString()
+      todoId:Date.now().toString()
     }
     this.todoForm.reset()
     this.emitTodoObj.emit(todoObj)
